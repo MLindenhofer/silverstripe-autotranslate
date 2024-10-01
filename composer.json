@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "tractorcow/silverstripe-fluent": "^4"
+        "tractorcow/silverstripe-fluent": "^6"
     },
     "autoload": {
         "psr-4": {
