@@ -1,13 +1,13 @@
 /*global jQuery, ss, tinymce */
 jQuery(function () {
     Autotranslate(jQuery).init();
+    alert('bundle.js loaded');
 });
 
 function Autotranslate($) {
     return {
         init: function () {
             var body = $('body');
-
             body.on('click', '.js-autotranslate', function (event) {
                 setTimeout(function () {
                     $(event.target).find('ul').toggle();
